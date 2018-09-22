@@ -1,12 +1,4 @@
-//+------------------------------------------------------------------+
-//|                                                Level4IntroEA.mq4 |
-//|                            Copyright 2018, Global Unitus Markets |
-//|                                             www.globalunitus.com |
-//+------------------------------------------------------------------+
-#property copyright "Copyright 2018, Global Unitus Markets"
-#property link      "www.globalunitus.com"
-#property version   "1.00"
-#property description "This is the first EA we make in level 4"
+
 #property strict
 
 #include <stderror.mqh>
@@ -14,7 +6,7 @@
 
 //--- input parameters
 
-input string Password = "Khoa"; // Please Enter Your Password
+input string Password = ""; // Please Enter Your Password
 
 extern double StopLoss = 30;
 extern double TakeProfit = 30;
