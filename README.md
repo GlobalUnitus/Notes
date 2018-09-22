@@ -1,2 +1,0 @@
-# Notes
-Captured Notes
